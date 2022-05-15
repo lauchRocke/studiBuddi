@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Link to the page
+
+This site was built using [GitHub Pages](https://lauchrocke.github.io/studiBuddi/)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
