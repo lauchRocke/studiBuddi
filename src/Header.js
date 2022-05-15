@@ -5,16 +5,17 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import FullWidthTextField from './FullWidthTextField';
-
+import { Link } from "react-router-dom";
 function Header(props) {
   const { sections, title } = props;
 
   return (
     <React.Fragment>
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-      <Button variant="contained" size="small" color="success" style={{margin:"25px"}}>Log in</Button>
+        <Link to="/SignIn">
+      <Button variant="contained" size="small" color="success" style={{margin:"25px"}}>Log in</Button></Link>
         <Button variant="outlined" size="small" color="success">
           Sign up
         </Button>
