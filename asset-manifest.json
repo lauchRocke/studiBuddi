@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lauchRocke/studiBuddi/static/css/main.ef7fc163.css",
-    "main.js": "/lauchRocke/studiBuddi/static/js/main.2e996824.js",
-    "static/media/group.jpg": "/lauchRocke/studiBuddi/static/media/group.e1daf59f843831b64de4.jpg",
-    "static/media/indiv.jpg": "/lauchRocke/studiBuddi/static/media/indiv.4ce75c857b0d4db6fa15.jpg",
-    "static/media/onePerson.jpg": "/lauchRocke/studiBuddi/static/media/onePerson.225b3a60a2506c950087.jpg",
-    "static/media/studi.png": "/lauchRocke/studiBuddi/static/media/studi.bfff65c2ddfb638c016e.png",
-    "static/media/blog-post.1.md": "/lauchRocke/studiBuddi/static/media/blog-post.1.0c315da1f0a7af641a3a.md",
-    "index.html": "/lauchRocke/studiBuddi/index.html",
-    "static/media/blog-post.2.md": "/lauchRocke/studiBuddi/static/media/blog-post.2.bec33d7c8bf27858ce0c.md",
-    "static/media/blog-post.3.md": "/lauchRocke/studiBuddi/static/media/blog-post.3.0a90113db17c3659cca0.md",
-    "main.ef7fc163.css.map": "/lauchRocke/studiBuddi/static/css/main.ef7fc163.css.map",
-    "main.2e996824.js.map": "/lauchRocke/studiBuddi/static/js/main.2e996824.js.map"
+    "main.css": "/studiBuddi/static/css/main.ef7fc163.css",
+    "main.js": "/studiBuddi/static/js/main.4eeefcbf.js",
+    "static/media/group.jpg": "/studiBuddi/static/media/group.e1daf59f843831b64de4.jpg",
+    "static/media/indiv.jpg": "/studiBuddi/static/media/indiv.4ce75c857b0d4db6fa15.jpg",
+    "static/media/onePerson.jpg": "/studiBuddi/static/media/onePerson.225b3a60a2506c950087.jpg",
+    "static/media/studi.png": "/studiBuddi/static/media/studi.bfff65c2ddfb638c016e.png",
+    "static/media/blog-post.1.md": "/studiBuddi/static/media/blog-post.1.0c315da1f0a7af641a3a.md",
+    "static/media/blog-post.2.md": "/studiBuddi/static/media/blog-post.2.bec33d7c8bf27858ce0c.md",
+    "index.html": "/studiBuddi/index.html",
+    "static/media/blog-post.3.md": "/studiBuddi/static/media/blog-post.3.0a90113db17c3659cca0.md",
+    "main.ef7fc163.css.map": "/studiBuddi/static/css/main.ef7fc163.css.map",
+    "main.4eeefcbf.js.map": "/studiBuddi/static/js/main.4eeefcbf.js.map"
   },
   "entrypoints": [
     "static/css/main.ef7fc163.css",
-    "static/js/main.2e996824.js"
+    "static/js/main.4eeefcbf.js"
   ]
 }
