@@ -8,7 +8,7 @@ import {
  } from 'react-router-dom';
 
 import App from './App';
-import SignIn from './SignIn';
+import SignIn from './components/SignIn';
 
 const root = ReactDOMClient.createRoot(
     document.getElementById('root')
