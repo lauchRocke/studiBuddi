@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 // import Link from '@mui/material/Link';
 import FullWidthTextField from './FullWidthTextField';
 import { Link } from "react-router-dom";
+
 function Header(props) {
   const { sections, title } = props;
 
@@ -16,9 +17,10 @@ function Header(props) {
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Link to="/SignIn">
       <Button variant="contained" size="small" color="success" style={{margin:"25px"}}>Log in</Button></Link>
+      <Link to="/SignUp">
         <Button variant="outlined" size="small" color="success">
           Sign up
-        </Button>
+        </Button></Link>
         <Typography
           component="h2"
           variant="h5"
