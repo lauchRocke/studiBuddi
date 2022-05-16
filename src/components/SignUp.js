@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import CardActions from '@mui/material/CardActions';
 
 function Copyright(props) {
   return (
@@ -122,6 +123,16 @@ export default function SignUp() {
                 </Link>
               </Grid>
             </Grid>
+            <CardActions sx={{ justifyContent: "center" }}>
+              <Box textAlign='center'>
+                <Grid container justify="center">
+                <Link to="/">
+                  <Button color="primary" size="large" type="submit" variant="contained">Back
+                  </Button>
+                  </Link>
+                </Grid>
+              </Box>
+              </CardActions>
           </Box>
         </Box>
         <Copyright sx={{ mt: 5 }} />
