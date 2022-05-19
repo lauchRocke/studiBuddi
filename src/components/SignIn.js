@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CardActions from '@mui/material/CardActions';
+import { useNavigate } from 'react-router-dom';
 
 function Copyright(props) {
   return (
@@ -38,7 +39,8 @@ export default function SignIn() {
       password: data.get('password'),
     });
   };
-
+  
+  const navigate = useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -103,17 +105,18 @@ export default function SignIn() {
                 </Link>
               </Grid>
               </Grid>
-              <CardActions sx={{ justifyContent: "center" }}>
+
+          </Box>
+          <CardActions sx={{ justifyContent: "center" }}>
               <Box textAlign='center'>
                 <Grid container justify="center">
                 <Link to="/">
-                  <Button color="primary" size="large" type="submit" variant="contained">Back
+                  <Button onClick={() => navigate(-1)} color="primary" size="large"  variant="contained">Back
                   </Button>
                   </Link>
                 </Grid>
               </Box>
               </CardActions>
-          </Box>
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
       </Container>
