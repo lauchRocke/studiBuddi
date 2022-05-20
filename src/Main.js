@@ -22,10 +22,6 @@ function Main(props) {
         },
       }}
     >
-
-
-
-      
     </Grid>
     
   );

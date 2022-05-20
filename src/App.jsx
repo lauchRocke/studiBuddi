@@ -9,7 +9,6 @@ const App = () => {
     return (
         <Fragment>
         <Main/>
-
            <Blog/>
         </Fragment>
         
